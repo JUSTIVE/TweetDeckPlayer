@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "async": "^3.2.4",
+    "csscomb": "^4.3.0",
     "detect-font": "^0.1.5",
     "lodash": "^4.17.21",
     "mime": "^3.0.0",
@@ -45,7 +46,6 @@
     "vex-js": "^4.1.0"
   },
   "devDependencies": {
-    "csscomb": "^4.3.0",
     "electron": "^19.0.9",
     "electron-packager": "^15.5.1",
     "eslint": "^8.20.0",
