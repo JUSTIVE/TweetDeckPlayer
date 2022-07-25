@@ -1,4 +1,5 @@
 module.exports = [
+  'node_modules',
   '.buildignore.js',
   '.csscomb.json',
   '.editorconfig',

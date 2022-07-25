@@ -43,9 +43,7 @@
     "request": "^2.88.2",
     "twemoji": "^14.0.2",
     "vex-dialog": "^1.1.0",
-    "vex-js": "^4.1.0"
-  },
-  "devDependencies": {
+    "vex-js": "^4.1.0",
     "electron": "^19.0.9",
     "electron-packager": "^15.5.1",
     "eslint": "^8.20.0",
@@ -54,6 +52,7 @@
     "minimist": "^1.2.6",
     "sync-exec": "^0.6.2"
   },
+  "devDependencies": {},
   "scripts": {
     "csslint": "csscomb src/css/ --lint --verbose",
     "csscomb": "csscomb src/css/ --verbose",
