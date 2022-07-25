@@ -13,9 +13,7 @@
   opacity: .8;
 }
 
-.tdp-square-profile .prf-img,
-.tdp-square-profile img.avatar,
-html.dark .tdp-square-profile img.avatar {
+.tdp-square-profile .prf-img, .tdp-square-profile img.avatar, html.dark .tdp-square-profile img.avatar {
   border-radius: 10%;
 }
 
@@ -74,8 +72,7 @@ html.dark .tdp-square-profile img.avatar {
 .tiv-btngroup-right {
   float: right;
 }
-html.dark .tiv-button,
-.tiv-button {
+html.dark .tiv-button, .tiv-button {
   display: inline-block;
   margin: 0 5px;
   padding: 5px 15px;
@@ -87,18 +84,15 @@ html.dark .tiv-button,
   font-size: 12pt;
   transition: background-color .2s;
 }
-html.dark .tiv-button:not(:disabled):hover,
-.tiv-button:not(:disabled):hover {
+html.dark .tiv-button:not(:disabled):hover, .tiv-button:not(:disabled):hover {
   background-color: #555;
 }
-html.dark .tiv-button:disabled,
-.tiv-button:disabled {
+html.dark .tiv-button:disabled, .tiv-button:disabled {
   opacity: .6;
   background-color: #222;
   cursor: not-allowed;
 }
-html.dark .tiv-button:hover,
-.tiv-button:hover {
+html.dark .tiv-button:hover, .tiv-button:hover {
   color: #eee;
 }
 
@@ -110,19 +104,18 @@ body.tdp-color-labels .tdp-color-label {
   width: 3px;
   height: 100%;
 }
-body.tdp-color-labels .js-tweet.tweet.is-favorite+.tdp-color-label {
+body.tdp-color-labels .js-tweet.tweet.is-favorite + .tdp-color-label {
   background-color: #fab41e;
 }
-body.tdp-color-labels .js-tweet.tweet.is-retweet+.tdp-color-label {
+body.tdp-color-labels .js-tweet.tweet.is-retweet + .tdp-color-label {
   background-color: #19cf86;
 }
-body.tdp-color-labels .js-tweet.tweet.is-favorite.is-retweet+.tdp-color-label {
+body.tdp-color-labels .js-tweet.tweet.is-favorite.is-retweet + .tdp-color-label {
   background-color: #3b94d9;
 }
 
 /* 트윗 입력 글자수 표시 */
-.js-character-count.is-hidden,
-html.dark .js-character-count.is-hidden {
+.js-character-count.is-hidden, html.dark .js-character-count.is-hidden {
   display: inline !important;
 }
 

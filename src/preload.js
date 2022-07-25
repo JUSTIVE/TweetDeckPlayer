@@ -674,7 +674,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const target = e.currentTarget;
     const time = target.getAttribute('data-time');
     if (!time) {
-      return
+      return;
     }
     const date = new Date(parseInt(time, 10));
     target.setAttribute('title', date.toLocaleString());

@@ -24,7 +24,7 @@ function MakeQuoteWithoutNotification (ipcRenderer, id) {
   }
 
   function handleErrors (data) {
-    if (!data.hasOwnProperty('err')) return data;
+    if (!Object.prototype.hasOwnProperty.call(data,'err')) return data;
     var errMsg = data.err;
     var msg = `Quote Without Notification Fail: ${errMsg}`;
     return Promise.reject(new Error(msg));

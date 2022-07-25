@@ -16,7 +16,7 @@ const Config = require('./config');
 // set to userdata folder
 app.setPath('userData', Util.getUserDataPath());
 
-app.commandLine.appendSwitch('force-color-profile', 'srgb')
+app.commandLine.appendSwitch('force-color-profile', 'srgb');
 
 const createUUIDv4 = () => {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
